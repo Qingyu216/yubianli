@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="keywords" content="豫便利" />
+  		<meta name="description" content="豫便利" />
+  		<meta name="author" content="豫便利" />
+		<title>豫便利-我要进货</title>
+        <link rel="Shortcut Icon" href="favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="css/onepage-scroll.css"/>
+		<script src="js/jquery-1.7.2.min.js" type="text/javascript" charset="utf-8"></script>
+    	<script src="js/jquery.fullPage.min.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+	<!--头部-->
+	<div class="header">
+		<div class="wrapper">
+			<div class="floatRight nav">
+				<ul>
+					<li><a href="index.html">首页</a></li>
+					<li><a href="business.html">商务合作</a></li>
+					<li><a href="about.html">关于我们</a></li>
+					<li><a class="cur" href="stock.html">我要进货</a></li>
+				</ul>
+			</div>
+			<div class="floatLeft logo"><a href="index.html"><img src="images/logo.png"/></a></div>		
+		</div>
+	</div>
+	<!--/头部-->
+	<!--内容-->
+		<div class="content">
+			<div class="content-box stock">
+				<ul class="onepage-wrapper" id="stock-box">
+					<li class="floor-one section">
+						<div class="first-wrapper">
+							<div class="fw-one fw-first">
+								<div class="floatLeft fw-text common-left">
+									<h2 class="title">豫便利</h2>
+									<div class="service">
+										<p class="service-first">便利店供应链服务商</p>
+										<p class="service-second">让生意更容易，让生活更便利！</p>
+									</div>
+								</div>
+								<div class="floatRight show"><img src="images/_temp/img-first.png"/></div>
+							</div>
+						</div>
+					</li>
+					<li class="floor-two section">
+						<div class="floor-second">
+							<div class="fw-two fw-second">
+								<div class="fw-second-title"><img src="images/_temp/img-title.png"/></div>
+								<div class="fw-second-content">
+									<div class="floatLeft bg-left"><img src="images/_temp/bg-left.png"/></div>
+									<div class="floatLeft bg-logo"><img src="images/_temp/img-logo.png"/></div>
+									<div class="floatLeft bg-right"><img src="images/_temp/bg-right.png" alt="" /></div>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="floor-three section">
+						<div class="floor-wrapper">
+							<div class="fw-three fw-third">
+								<div class="fw-third-title"><img src="images/_temp/img-partner.png" alt="" /></div>
+								<div class="fw-third-content"><img src="images/_temp/img-brand.png"/></div>
+							</div>
+						</div>
+					</li>
+					<li class="floor-four section">
+						<div class="floor-wrapper">
+							<div class="fw-four fourth">
+								<div class="fw-four-title">
+									<div class="floatLeft fw-conduct">
+										<p class="dial">现在订货，请拨打</p>
+										<p class="phone"><em class="icon icon-phone"></em>：400-667-5666</p>
+										<p class="conduct"><span>客户经理将迅速为您</span><span>办理注册入驻手续！</span></p>
+									</div>
+									<div class="floatLeft stock-code"><img src="images/_temp/img-stock-code.jpg" alt="" /></div>
+								</div>
+								<div class="fw-four-descri">关注豫便利省钱小助手，活动、特价、互动尽在掌握！</div>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>  
+	<!--/内容-->
+	<!--侧边-->
+	<div class="onepage-pagination clearfix" id="stock-sidebar">
+		<ul>
+			<li data-menuanchor="page6" class="active"><a  href="#page6"></a></li>
+			<li data-menuanchor="page7"><a href="#page7"></a></li>
+			<li data-menuanchor="page8"><a href="#page8"></a></li>
+			<li data-menuanchor="page9"><a href="#page9"></a></li>
+		</ul>
+	</div>
+	<!--/侧边-->
+	<script src="js/base.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		//我要进货视差滚动
+		$('#stock-box').fullpage({
+			sectionsColor: ['#43cdcf', '#4bb2dd', '#6dc54a', '#15e4be'],
+			anchors: ['page6', 'page7', 'page8', 'page9'],
+			menu: '#stock-sidebar'
+		});
+	</script>
+	</body>
+</html>
